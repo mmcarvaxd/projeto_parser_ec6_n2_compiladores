@@ -31,6 +31,10 @@ public class Main {
             }
         }
 
+        if(stack.empty()) {
+            isInvalid = true;
+        }
+
         return isInvalid;
     }
 
