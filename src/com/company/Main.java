@@ -31,7 +31,7 @@ public class Main {
             }
         }
 
-        if(stack.empty()) {
+        if(!stack.empty()) {
             isInvalid = true;
         }
 
